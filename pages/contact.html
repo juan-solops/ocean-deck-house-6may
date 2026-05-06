@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Direct & Contact — Ocean Deck House, Abades Tenerife</title>
+  <meta name="description" content="Book Ocean Deck House directly and save. Contact us for the best available rate — no platform fees. Holiday home in Abades, South Tenerife." />
+  <link rel="canonical" href="https://www.oceandeckhouse.com/pages/contact" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../" class="nav-logo"><span class="logo-icon">🌊</span><span class="logo-text">Ocean Deck House</span></a>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="the-home.html">The Home</a></li>
+        <li><a href="explore.html">Explore Abades</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="contact.html" class="btn-book active">Book Direct & Save</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="page-hero page-hero-short bg-ocean">
+    <div class="page-hero-overlay">
+      <h1>Book Direct & Save</h1>
+      <p>Contact us directly for the best price — guaranteed</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-pad">
+      <div class="container contact-layout">
+
+        <!-- FORM SIDE -->
+        <div class="contact-form-wrap">
+          <h2>Send Us a Message</h2>
+          <p>Fill in the form below and we'll reply within a few hours with availability and our best direct rate.</p>
+
+          <form
+            id="contactForm"
+            class="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            novalidate
+          >
+            <!-- Honeypot anti-spam -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="_subject" value="New booking enquiry — Ocean Deck House" />
+            <input type="hidden" name="_next" value="https://www.oceandeckhouse.com/pages/contact?sent=true" />
+
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Your first name" autocomplete="given-name" />
+                <span class="form-error" id="err-firstName"></span>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Your last name" autocomplete="family-name" />
+                <span class="form-error" id="err-lastName"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email" />
+              <span class="form-error" id="err-email"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp (optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="+34 600 000 000" autocomplete="tel" />
+            </div>
+
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="checkin">Check-in Date *</label>
+                <input type="date" id="checkin" name="checkin" required />
+                <span class="form-error" id="err-checkin"></span>
+              </div>
+              <div class="form-group">
+                <label for="checkout">Check-out Date *</label>
+                <input type="date" id="checkout" name="checkout" required />
+                <span class="form-error" id="err-checkout"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="guests">Number of Guests *</label>
+              <select id="guests" name="guests" required>
+                <option value="" disabled selected>Select guests</option>
+                <option value="1">1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests (max)</option>
+              </select>
+              <span class="form-error" id="err-guests"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Any questions, special requests, or anything you'd like us to know..."></textarea>
+            </div>
+
+            <div class="form-group form-consent">
+              <label class="checkbox-label">
+                <input type="checkbox" id="consent" name="consent" required />
+                <span>I agree to be contacted regarding my booking enquiry. *</span>
+              </label>
+              <span class="form-error" id="err-consent"></span>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full" id="submitBtn">
+              <span id="btnText">✉️ Send Enquiry</span>
+              <span id="btnLoading" style="display:none">Sending...</span>
+            </button>
+
+            <div id="formSuccess" class="form-success" style="display:none">
+              ✅ <strong>Message sent!</strong> We'll reply within a few hours with availability and our best rate.
+            </div>
+            <div id="formError" class="form-error-box" style="display:none">
+              ❌ Something went wrong. Please try again or email us directly.
+            </div>
+          </form>
+        </div>
+
+        <!-- INFO SIDE -->
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <h3>💰 Why Book Direct?</h3>
+            <ul>
+              <li>✅ Best available rate — guaranteed</li>
+              <li>✅ No Airbnb or Booking.com service fees</li>
+              <li>✅ Flexible payment options</li>
+              <li>✅ Direct communication with the owners</li>
+              <li>✅ Personal tips and local recommendations</li>
+            </ul>
+          </div>
+
+          <div class="contact-info-card">
+            <h3>📋 The House</h3>
+            <ul>
+              <li>🏠 Entire private house</li>
+              <li>👥 Up to 4 guests</li>
+              <li>🛏️ 2 bedrooms</li>
+              <li>🚿 1 full bathroom</li>
+              <li>🌿 Private garden & terrace</li>
+              <li>🚗 Private parking</li>
+              <li>⚡ Fiber internet</li>
+              <li>🍳 Fully equipped kitchen</li>
+              <li>🌋 Teide volcano views (clear days)</li>
+            </ul>
+          </div>
+
+          <div class="contact-info-card">
+            <h3>📍 Location</h3>
+            <p>Abades, Arico<br>Tenerife, Canary Islands<br>Spain</p>
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5!2d-16.4833!3d28.1167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDA3JzAwLjEiTiAxNsKwMjgnNTkuOSJX!5e0!3m2!1sen!2ses!4v1234567890"
+                width="100%"
+                height="200"
+                style="border:0;border-radius:8px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ocean Deck House location in Abades, Tenerife"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <h3>🌐 Also Available On</h3>
+            <a href="https://www.airbnb.com" target="_blank" rel="noopener" class="btn-platform-outline">Airbnb</a>
+            <a href="https://www.booking.com" target="_blank" rel="noopener" class="btn-platform-outline">Booking.com</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="logo-text">🌊 Ocean Deck House</p>
+        <p>Private holiday home in Abades, South Tenerife.</p>
+      </div>
+      <div class="footer-legal">
+        <p>© 2026 Ocean Deck House. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script>
+    // ── FORM VALIDATION & SUBMISSION ──────────────────
+    const form = document.getElementById('contactForm');
+    const btnText = document.getElementById('btnText');
+    const btnLoading = document.getElementById('btnLoading');
+    const submitBtn = document.getElementById('submitBtn');
+
+    // Set min date to today
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('checkin').setAttribute('min', today);
+    document.getElementById('checkout').setAttribute('min', today);
+
+    // Update checkout min when checkin changes
+    document.getElementById('checkin').addEventListener('change', function() {
+      document.getElementById('checkout').setAttribute('min', this.value);
+    });
+
+    function showError(id, msg) {
+      const el = document.getElementById('err-' + id);
+      if (el) { el.textContent = msg; el.style.display = 'block'; }
+    }
+    function clearErrors() {
+      document.querySelectorAll('.form-error').forEach(el => {
+        el.textContent = '';
+        el.style.display = 'none';
+      });
+    }
+    function validateForm() {
+      clearErrors();
+      let valid = true;
+      const fields = ['firstName','lastName','email','checkin','checkout','guests'];
+      fields.forEach(f => {
+        const el = document.getElementById(f);
+        if (!el.value.trim()) {
+          showError(f, 'This field is required.');
+          valid = false;
+        }
+      });
+      const email = document.getElementById('email').value;
+      if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        showError('email', 'Please enter a valid email address.');
+        valid = false;
+      }
+      const checkin = document.getElementById('checkin').value;
+      const checkout = document.getElementById('checkout').value;
+      if (checkin && checkout && checkout <= checkin) {
+        showError('checkout', 'Check-out must be after check-in.');
+        valid = false;
+      }
+      if (!document.getElementById('consent').checked) {
+        showError('consent', 'Please accept to continue.');
+        valid = false;
+      }
+      return valid;
+    }
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      if (!validateForm()) return;
+
+      submitBtn.disabled = true;
+      btnText.style.display = 'none';
+      btnLoading.style.display = 'inline';
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          form.style.display = 'none';
+          document.getElementById('formSuccess').style.display = 'block';
+        } else {
+          throw new Error('Server error');
+        }
+      } catch (err) {
+        document.getElementById('formError').style.display = 'block';
+        submitBtn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoading.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
